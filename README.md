@@ -2,6 +2,10 @@
 
 A network trained on CIFAR 10 dataset. This model is built using most possible optimization techniques like Dilated Convolution, Depthwise Separable Convolution, Skip connection, and Pointwise Convolution
 
+The network proposed here contains **only 95,653 params** and is trained for **24 epochs** to reach an accuracy of **89% on test set**
+
+[Code Link](./CIFAR_ALBUMENTATION_GRADCAM_WOOLLY_95653_0.8872.ipynb)
+
 We will be showing the following
 1. Network Architecture
 2. Parameters And Model Summary
