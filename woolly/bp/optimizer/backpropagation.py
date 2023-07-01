@@ -13,3 +13,10 @@ def get_sgd_optimizer(model, lr, momentum=0, weight_decay=0):
         weight_decay=weight_decay,
         nesterov=True,
     )
+
+def get_adam_optimizer(model, lr, weight_decay=0):
+    return Adam(
+        model.parameters(),
+        lr=lr,
+        weight_decay=weight_decay,
+    )
